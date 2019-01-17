@@ -1,7 +1,7 @@
 
 Page({
     data: {
-     
+      I love ljy;
     },
    onLoad:function () {
 
