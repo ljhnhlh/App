@@ -9,6 +9,8 @@
   </view>
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
-    <text >{{message}} </text>
+    <!-- <text >{{message}} </text> -->
   </view>
+<button bindtap="tiaozhuang" >跳转</button>
+<web-view src="https://mp.weixin.qq.com/">网页</web-view>
 </view>

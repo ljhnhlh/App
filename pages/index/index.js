@@ -16,6 +16,12 @@ Page({
       url: '../logs/logs'
     })
   },
+  tiaozhuang:function () {
+    wx.navigateTo({
+      url: '/test/test'
+    })
+  }
+  ,
   onLoad: function () {
     if (app.globalData.userInfo) {
       this.setData({
