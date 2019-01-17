@@ -66,3 +66,19 @@ App() 必须在 app.js 中调用，必须调用且只能调用一次。不然会
 
 [创建页面](https://www.jb51.net/article/111375.htm)
 
+
+
+## 群分享
+
+那几个函数貌似只能用于小游戏
+
+现在的想法是，使用
+
+
+
+使用open-data就可以获得用户的信息，没写后台
+
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20190117194605412.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM2MzAzODYy,size_16,color_FFFFFF,t_70)
+
+
+
