@@ -92,5 +92,39 @@ App() 必须在 app.js 中调用，必须调用且只能调用一次。不然会
 
 
 
+# express
+
+[express API](http://www.expressjs.com.cn/4x/api.html#res) 要常查看
+
+express 的路由是动态的，使用‘：’
+
+对于url中，?xxx=xx,要取出xxx的值，可以使用req.query,显示的是{ xxx:'xx'},若要得到xx，可写req.query.xxx，从这里可以想到，在使用get时，可以使用通过xxx的值来进行参数匹配，用于用户的区分？！
+
+
+
+post 有上传文件和上传文字的功能，但两者不一样 
+
+req.body 是数据的主体，可用req.body.xxx来引用数据
+
+app.use(bodyParser.xxx));,需要在项目下使用`npm install body-parser --save` 下载bodyParse
+
+
+
+### 文件上传
+
+ `npm insall multer --save`
+
+[Nodejs进阶：基于express+multer的文件上传](https://www.cnblogs.com/chyingp/p/express-multer-file-upload.html)
+
+[Node.js：上传文件，服务端如何获取文件上传进度](https://www.cnblogs.com/chyingp/p/nodejs-multer-how-to-get-upload-percentage.html)
+
+[node.js 开发](http://www.cnblogs.com/chyingp/p/)
+
+### 模板引擎 EJS
+
+用于往静态的htlm嵌入动态的数据，如往返回的html文件嵌入数据库的数据
+
+
+
 # end
 
