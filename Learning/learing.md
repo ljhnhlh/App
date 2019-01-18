@@ -1,3 +1,7 @@
+[TOC]
+
+
+
 文档中关于转发到微信群的内容：
 
 [接口说明](https://mp.weixin.qq.com/debug/wxadoc/dev/component/open-data.html)
@@ -81,4 +85,12 @@ App() 必须在 app.js 中调用，必须调用且只能调用一次。不然会
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190117194605412.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM2MzAzODYy,size_16,color_FFFFFF,t_70)
 
 
+
+# 搭建本地测试
+
+[手把手教你搭建Windows环境微信小程序的本地测试服务器](https://blog.csdn.net/myth13141314/article/details/81303034)
+
+
+
+# end
 
