@@ -124,6 +124,38 @@ app.use(bodyParser.xxx));,需要在项目下使用`npm install body-parser --sav
 
 用于往静态的htlm嵌入动态的数据，如往返回的html文件嵌入数据库的数据
 
+数组有 `.forEach()` 方法遍历
+
+文件为`.ejs` 后缀
+
+
+
+## 中间件
+
+express.static('静态文件夹')，，可访问里面的静态文件，如图片等
+
+app.use()
+
+## 路由重构
+
+
+
+
+
+## 淘宝源
+
+https://npm.taobao.org
+
+[npm 开源网站](https://www.npmjs.com/)
+
+
+
+
+
+## 弹幕的搜索资料
+
+[移动](https://www.cnblogs.com/shockw4ver/p/5886771.html)
+
 
 
 # end
